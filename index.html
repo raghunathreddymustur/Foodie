@@ -31,8 +31,14 @@
                 </p>
                 <a class="btn" href="#">Our Menu</a>
             </div>
+
         </section>
-        
+        <script type="text/javascript">
+            window.addEventListener('scroll',function(){
+                const header=document.querySelector('header');
+                header.classList.toggle("sticky",window.scrollY>0);
+            })
+        </script>
         <script src="" async defer></script>
     </body>
 </html>

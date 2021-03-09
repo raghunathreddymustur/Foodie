@@ -61,12 +61,18 @@ header{
     top:0;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
+    padding: 20px 100px;
     z-index:1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: 0.5s;
+}
+header.sticky
+{
+    background: #fff;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0,0, 0.1);
 }
 header .logo
 {
@@ -74,6 +80,9 @@ header .logo
     font-weight: 700;
     font-size: 2em;
     text-decoration: none;
+}
+header.sticky .logo{
+    color: #111;
 }
 header .logo span{
     color:#ff0157;
@@ -93,4 +102,11 @@ header .navigation li a{
     color: #fff;
     font-weight: 300;
 
+}
+header.sticky .navigation li a
+{
+    color: black;
+}
+header .navigation li a:hover{
+    color:#ff0157;
 }
