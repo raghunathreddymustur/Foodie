@@ -5,10 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
-body{
-    min-height: 1000px;
-}
+
 p{
     font-weight: 300;
     color: #111;
@@ -109,4 +108,47 @@ header.sticky .navigation li a
 }
 header .navigation li a:hover{
     color:#ff0157;
+}
+
+section{
+    padding: 100px;
+}
+.row
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col50
+{
+    position: relative;
+    width: 48%;
+}
+.about-title
+{
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+}
+.about-title span{
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.row .col50 .imgBX
+{
+    position:relative;
+    width:100%;
+    height: 100%;
+}
+
+.row .col50 .imgBX img
+{
+    position:obsolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    object-fit:cover;
 }
