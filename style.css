@@ -125,13 +125,13 @@ section{
     position: relative;
     width: 48%;
 }
-.about-title
+.titleText
 {
     color: #111;
     font-size: 2em;
     font-weight: 300;
 }
-.about-title span{
+.titleText span{
     color: #ff0157;
     font-weight: 700;
     font-size: 1.5em;
@@ -151,4 +151,39 @@ section{
     width:100%;
     height: 100%;
     object-fit:cover;
+}
+.title{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu .content
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin-top: 40px;
+}
+.menu .content .box
+{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+.menu .content .box .imgBX{
+    position:relative;
+    width: 100%;
+    height: 300px;
+}
+.menu .content .box .imgBX img{
+    position: obsolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
