@@ -413,4 +413,40 @@ section{
     {
         filter: invert(1);
     }
+    section{
+        padding: 20px;
+    }
+    .banner .content h2
+    {
+        font-size: 3em;
+        color:#fff;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .row .col50
+    {
+        position: relative;
+        width: 100%;
+    }
+    .row .col50 .imgBX
+    {
+       
+        height: 300px;
+        margin-top: 20px;
+    }
+    .menu .content
+    {
+        margin-top:20px;
+    }
+    .menu .content .box{
+        margin:10px;
+    }
+    .menu .content .box .imgBX
+    {
+        height: 260px;
+    }
+    .title{
+        text-align: center;
+    }
 }
